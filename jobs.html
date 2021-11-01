@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaJam Coffee House::Jobs</title>
+    <link rel="stylesheet" href="javajam.css">
+    <!-- [if it IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+    </script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffee House</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="content">
+                <h2>Jobs at JavaJam</h2>
+                <p>
+                    Want to work at JavaJam? Fill out the form below to start your application.
+                </p>
+                <p>
+                    Required fields are marked with an asterisk *
+                </p>
+                <form action="http://webdevbasics.net/scripts/javajam.php">
+                    <label for="myName">*Name:</label>
+                    <input required="required" type="text" id="myName" name="myName">
+                    <label for="myEmail">*E-mail</label>
+                    <input required="required" type="email" name="myEmail" id="myEmail">
+                    <label for="mydate">Start Date</label>
+                    <input type="date" name="mydate">
+                    <label for="Experience">*Experience:</label>
+                    <textarea required="required" name="Experience" id="Experience" cols="20" rows="2"></textarea>
+
+                    <input type="submit" value="Apply Now">
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            Copyright @ 2014 Pacific TrailsResort <br>
+            <a href="">2867293046@qq.com</a>
+        </footer>
+    </div>
+
+</body>
+
+</html>

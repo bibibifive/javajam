@@ -41,6 +41,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
+    transition: 3s ease-out;
 }
 
 nav a:link {
@@ -138,6 +139,39 @@ img {
     height: auto;
 }
 
+table {
+    width: 80%;
+    margin: auto;
+}
+
+td,
+th {
+    padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #d2b48c;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 120px;
+    padding-right: 15px;
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+audio {
+    clear: both;
+    padding-top: 20px;
+}
+
 @media only screen and (max-width:768px) {
     body {
         margin: 0;
@@ -229,5 +263,9 @@ img {
     }
     #desktop {
         display: none;
+    }
+    label {
+        float: none;
+        text-align: left;
     }
 }
